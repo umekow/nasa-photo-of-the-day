@@ -5,7 +5,10 @@ import PhotoContainer from './PhotoContainer'
 
 
 const Container = styled.div`
-border:1px dotted blue; 
+
+width:90%;
+margin:2% auto;
+
 `
 
 const Card = () =>{
@@ -42,11 +45,11 @@ const Card = () =>{
     return(
         <div>
         <Container>
-            <h2>{data.title}</h2>
+            
             <PhotoContainer
                 url={data.url}
                 alt={data.title}/>
-
+            <h2>{data.title}</h2>
             <p className="desc">{data.explanation}</p>
         </Container>
         </div>

@@ -5,19 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ubuntu', sans-serif;
+  background:#16111a;
+  color:white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+html{
+  font-size:62.5%
+}
 
 .app{
-  width:90%; 
+ 
   margin:0 auto; 
 }
 
 img{
-  width:100%
+  width:100%;
+  border-radius:3rem; 
+}
+
+h2{
+  text-align: center; 
+  font-size: 5rem; 
+}
+
+p{
+  font-size:2rem; 
+  margin:auto; 
+  padding: 2rem 5rem;   
 }
