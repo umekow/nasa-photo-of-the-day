@@ -1,9 +1,7 @@
-import React, {useState/*, useEffect*/}from "react";
-import "./App.css";
+import React from "react"
+import "./App.css"
 import Nav from './components/Nav'
-
-//mport axios from 'axios'
-
+import Card from './components/Card'
 
 
 
@@ -13,9 +11,9 @@ function App() {
   return (
     <div className="app">
       <Nav />
-   
+      <Card />
     </div>
-  );
+  )
 }
 
 export default App;

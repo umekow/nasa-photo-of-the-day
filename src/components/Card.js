@@ -1,4 +1,4 @@
-import react, /*{useState, useEffect}*/from 'react'
+import React from 'react'
 //import axios from 'axios'
 import styled from 'styled-components'
 import PhotoContainer from './PhotoContainer'
